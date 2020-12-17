@@ -13,10 +13,14 @@ public class Main {
         Person personTwo = new Person("Jack", "NY", 22);
 
         System.out.printf("Our team: \n%s \n%s", personOne, personTwo);
+        System.out.println();
 
         Car c1 = new Car("Citroen", "C4", "black", 2006, 210000);
         Car c2 = new Car("Ford", "Focus", "silver",2004, 180000);
 
+
+        System.out.println(c1);
+        System.out.println(c2);
 
 
     }
