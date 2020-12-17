@@ -14,5 +14,10 @@ public class Main {
 
         System.out.printf("Our team: \n%s \n%s", personOne, personTwo);
 
+        Car c1 = new Car("Citroen", "C4", "black", 2006, 210000);
+        Car c2 = new Car("Ford", "Focus", "silver",2004, 180000);
+
+
+
     }
 }
